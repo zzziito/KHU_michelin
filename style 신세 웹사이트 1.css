@@ -1,0 +1,28 @@
+@charset "UTF-8"
+    
+    :root {
+        --main-color:#f4cc70;
+        --accent-color:#6ab187;
+        --dark-color: #20948b;
+        --text-bright-color: #fff;
+}
+
+    
+    
+body{
+        
+        table, th, td {
+        border: 1px solid #000000; 
+        text-align: center; }
+   
+    table{
+        
+        margin-top: 100 px;
+        width: 400px;
+        height: 400px;
+        margin-right: auto;
+        margin-left: auto;
+        border-collapse: collapse;
+        background-color: #acd0c0;
+        }
+}
