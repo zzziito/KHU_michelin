@@ -1,0 +1,68 @@
+@charset "UTF-8"
+    
+    :root {
+        --main-color:#f4cc70;
+        --accent-color:#6ab187;
+        --dark-color: #20948b;
+        --text-bright-color: #fff;
+}
+
+    
+    
+    body{
+        
+        margin: 0;
+        font-family: '맑은고딕'
+}
+
+.conA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    min-height: 450px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)), url(%EB%A7%9B%EC%A7%91%20%ED%9E%88%EC%96%B4%EB%A1%9C%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg);
+    background-position: center;
+    background-size: center;
+    color: #fff;
+    color: var(--text-bright-color: #fff);
+    text-align: center;
+    
+}
+.conA h1{
+    margin-top: 0 px;
+    margin-bottom: 0;
+    font-size: 200 px;
+    
+}
+.conA p{
+    margin-top: 20;
+    margin-bottom: 0;
+    font-size: 30 px;
+}
+.conA img{
+    width: 30%
+}
+.conA a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: solid 3 px currentColor;
+    border-radius: 6px;
+    background-color: darkolivegreen;
+    background-color: var(--accent-color);
+    color: #fff;
+    color: var(--text-bright-color);
+    font-size:14px;
+}
+
+
+.conA a:hover{
+    background-image: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7));
+}
+
+
+
+
+
+

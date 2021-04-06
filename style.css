@@ -1,0 +1,22 @@
+@charset "UTF-8"
+
+    :root {
+        --main-color:#f4cc70;
+        --accent-color:#6ab187;
+        --dark-color: #20948b;
+        --text-bright-color: #fff;
+}
+
+body{
+    
+    margin: 0;
+    font-family: '맑은고딕'
+
+}
+
+.conA{
+    
+    display: flex;
+    align-items: center;
+    
+}
